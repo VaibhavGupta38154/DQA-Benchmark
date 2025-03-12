@@ -29,6 +29,7 @@ Ensuring data alignment with its intended purpose and use, through the evaluatio
 ### **Tool Capabilities**
 - **Supported File Formats:** CSV, JSON, XLSX, PARQUET, XML
 - **Supported Data Types:** Structured, Unstructured, Time Series
+- **Upload Limit** 200MB per file
 
 ## 4. Data Quality Checks for Different Data Types
 The DQA tool applies various validation checks to ensure data integrity across different types of files:
