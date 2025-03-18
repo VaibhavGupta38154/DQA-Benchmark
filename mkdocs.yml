@@ -1,0 +1,7 @@
+site_name: "dqavaibhavpractice"
+site_description: "practice backstage"
+repo_url: https://github.com/VaibhavGupta38154/DQA-Benchmark
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
