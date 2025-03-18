@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dqavaibhavpractice
+  annotations:
+    github.com/project-slug: VaibhavGupta38154/DQA-Benchmark
+spec:
+  type: other
+  lifecycle: unknown
+  owner: cld-app-7027-corp-nonprod-001-sg
