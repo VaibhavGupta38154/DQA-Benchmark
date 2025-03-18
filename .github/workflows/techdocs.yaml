@@ -1,0 +1,24 @@
+name: Publish TechDocs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - "catalog-info.yaml"
+  pull_request:
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - "catalog-info.yaml"
+
+jobs:
+  techdocs:
+    name: TechDocs
+    uses: volvo-cars/techdocs-workflows/.github/workflows/build.yaml@v1
+    with:
+      catalog-filename: "./catalog-info.yaml"
+    secrets: inherit
